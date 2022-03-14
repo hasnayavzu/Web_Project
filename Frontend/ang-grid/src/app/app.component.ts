@@ -19,8 +19,6 @@ export class AppComponent implements OnInit {
 
   columns = ["No.", "Name", "Email", "Age", "DateOfBirth"];
 
-  index = ["id", "name", "email", "age", "dob"];
-
   users : Users[] = [];
 
   ngOnInit(): void {
