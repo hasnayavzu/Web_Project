@@ -59,7 +59,7 @@ const updateUser = (req, res) => {
 
         pool.query(queries.updateUser, [name, id], (error, results) => {
             if (error) throw error;
-            res.status(200).send("Student updated successfuly!");
+            res.status(200).send("User updated successfuly!");
         });
     });
 };
